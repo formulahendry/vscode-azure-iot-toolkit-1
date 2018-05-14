@@ -475,10 +475,10 @@
   "devDependencies": {
     "@types/mocha": "^2.2.32",
     "@types/node": "^6.0.40",
-    "mocha": "^2.3.3",
+    "mocha": "^5.1.1",
     "tslint": "^4.5.1",
     "typescript": "^2.2.1",
-    "vscode": "^1.0.0"
+    "vscode": "^1.1.17"
   },
   "dependencies": {
     "axios": "^0.16.2",

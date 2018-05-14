@@ -1,0 +1,1235 @@
+                                                                                
+                       === npm audit security report ===                        
+                                                                                
+# Run  npm install vscode@1.1.17  to resolve 13 vulnerabilities
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > gulp-remote-src > request > hawk > boom > hoek       
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > gulp-remote-src > request > hawk > cryptiles > boom  
+                  > hoek                                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > gulp-remote-src > request > hawk > hoek              
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > gulp-remote-src > request > hawk > sntp > hoek       
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Memory Exposure                                               
+                                                                                
+  Package         tunnel-agent                                                  
+                                                                                
+  Dependency of   vscode [dev]                                                  
+                                                                                
+  Path            vscode > gulp-remote-src > request > tunnel-agent             
+                                                                                
+  More info       https://nodesecurity.io/advisories/598                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > request > hawk > boom > hoek                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > request > hawk > cryptiles > boom > hoek             
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > request > hawk > hoek                                
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > request > hawk > sntp > hoek                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > gulp-remote-src > request > http-signature > sshpk   
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   vscode                                                        
+                                                                                
+  Path            vscode > request > http-signature > sshpk                     
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Low             Cryptographically Weak PRNG                                   
+                                                                                
+  Package         randomatic                                                    
+                                                                                
+  Dependency of   vscode [dev]                                                  
+                                                                                
+  Path            vscode > gulp-symdest > vinyl-fs > glob-stream > micromatch   
+                  > braces > expand-range > fill-range > randomatic             
+                                                                                
+  More info       https://nodesecurity.io/advisories/157                        
+                                                                                
+
+
+                                                                                
+  Low             Cryptographically Weak PRNG                                   
+                                                                                
+  Package         randomatic                                                    
+                                                                                
+  Dependency of   vscode [dev]                                                  
+                                                                                
+  Path            vscode > gulp-vinyl-zip > vinyl-fs > glob-stream >            
+                  micromatch > braces > expand-range > fill-range > randomatic  
+                                                                                
+  More info       https://nodesecurity.io/advisories/157                        
+                                                                                
+
+
+# Run  npm install --dev mocha@5.1.1  to resolve 3 vulnerabilities
+SEMVER WARNING: Recommended action is a potentially breaking change
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   mocha [dev]                                                   
+                                                                                
+  Path            mocha > debug                                                 
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         minimatch                                                     
+                                                                                
+  Dependency of   mocha [dev]                                                   
+                                                                                
+  Path            mocha > glob > minimatch                                      
+                                                                                
+  More info       https://nodesecurity.io/advisories/118                        
+                                                                                
+
+
+                                                                                
+  Critical        Command Injection                                             
+                                                                                
+  Package         growl                                                         
+                                                                                
+  Dependency of   mocha [dev]                                                   
+                                                                                
+  Path            mocha > growl                                                 
+                                                                                
+  More info       https://nodesecurity.io/advisories/146                        
+                                                                                
+
+
+# Run  npm install azure-iot-device@1.4.1  to resolve 2 vulnerabilities
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > azure-storage > request > http-signature   
+                  > sshpk                                                       
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > lodash                                     
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+# Run  npm install azure-iothub@1.3.0  to resolve 4 vulnerabilities
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-iothub                                                  
+                                                                                
+  Path            azure-iothub > async > lodash                                 
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-iothub                                                  
+                                                                                
+  Path            azure-iothub > azure-iot-amqp-base > amqp10 > lodash          
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-iothub                                                  
+                                                                                
+  Path            azure-iothub > azure-iot-amqp-base > async > lodash           
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-iothub                                                  
+                                                                                
+  Path            azure-iothub > lodash                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+# Run  npm update hoek --depth 8  to resolve 27 vulnerabilities
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest > request > hawk > cryptiles >     
+                  boom > hoek                                                   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest > request > hawk > hoek            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest > request > hawk > sntp > hoek     
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > adal-node > request >      
+                  hawk > cryptiles > boom > hoek                                
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > adal-node > request >      
+                  hawk > hoek                                                   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > adal-node > request >      
+                  hawk > sntp > hoek                                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > ms-rest > request > hawk   
+                  > cryptiles > boom > hoek                                     
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > ms-rest > request > hawk   
+                  > hoek                                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > ms-rest > request > hawk   
+                  > sntp > hoek                                                 
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest > request > hawk > cryptiles >   
+                  boom > hoek                                                   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest > request > hawk > hoek          
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest > request > hawk > sntp > hoek   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > adal-node > request >    
+                  hawk > cryptiles > boom > hoek                                
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > adal-node > request >    
+                  hawk > hoek                                                   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > adal-node > request >    
+                  hawk > sntp > hoek                                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > ms-rest > request >      
+                  hawk > cryptiles > boom > hoek                                
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > ms-rest > request >      
+                  hawk > hoek                                                   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > ms-rest > request >      
+                  hawk > sntp > hoek                                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest                                                       
+                                                                                
+  Path            ms-rest > request > hawk > cryptiles > boom > hoek            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest                                                       
+                                                                                
+  Path            ms-rest > request > hawk > hoek                               
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest                                                       
+                                                                                
+  Path            ms-rest > request > hawk > sntp > hoek                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > adal-node > request > hawk > cryptiles >      
+                  boom > hoek                                                   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > adal-node > request > hawk > hoek             
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > adal-node > request > hawk > sntp > hoek      
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > ms-rest > request > hawk > cryptiles > boom   
+                  > hoek                                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > ms-rest > request > hawk > hoek               
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > ms-rest > request > hawk > sntp > hoek        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+# Run  npm update request --depth 4  to resolve 18 vulnerabilities
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest > request > hawk > boom > hoek     
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest > request > http-signature >       
+                  sshpk                                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > adal-node > request >      
+                  hawk > boom > hoek                                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > adal-node > request >      
+                  http-signature > sshpk                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > ms-rest > request > hawk   
+                  > boom > hoek                                                 
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > ms-rest > request >        
+                  http-signature > sshpk                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest > request > hawk > boom > hoek   
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest > request > http-signature >     
+                  sshpk                                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > adal-node > request >    
+                  hawk > boom > hoek                                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > adal-node > request >    
+                  http-signature > sshpk                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > ms-rest > request >      
+                  hawk > boom > hoek                                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > ms-rest > request >      
+                  http-signature > sshpk                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest                                                       
+                                                                                
+  Path            ms-rest > request > hawk > boom > hoek                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   ms-rest                                                       
+                                                                                
+  Path            ms-rest > request > http-signature > sshpk                    
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > adal-node > request > hawk > boom > hoek      
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > adal-node > request > http-signature > sshpk  
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > ms-rest > request > hawk > boom > hoek        
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > ms-rest > request > http-signature > sshpk    
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+# Run  npm update lodash --depth 5  to resolve 8 vulnerabilities
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > adal-node > async >        
+                  lodash                                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-arm-iothub                                              
+                                                                                
+  Path            azure-arm-iothub > ms-rest-azure > async > lodash             
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > adal-node > async >      
+                  lodash                                                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-arm-resource                                            
+                                                                                
+  Path            azure-arm-resource > ms-rest-azure > async > lodash           
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-event-hubs                                              
+                                                                                
+  Path            azure-event-hubs > amqp10 > lodash                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > lodash             
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > adal-node > async > lodash                    
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   ms-rest-azure                                                 
+                                                                                
+  Path            ms-rest-azure > async > lodash                                
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+# Run  npm update sshpk --depth 6  to resolve 1 vulnerability
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         sshpk                                                         
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > azure-storage >    
+                  request > http-signature > sshpk                              
+                                                                                
+  More info       https://nodesecurity.io/advisories/606                        
+                                                                                
+
+
+# Run  npm update rc --depth 6  to resolve 2 vulnerabilities
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         deep-extend                                                   
+                                                                                
+  Dependency of   tslint [dev]                                                  
+                                                                                
+  Path            tslint > update-notifier > latest-version > package-json >    
+                  registry-auth-token > rc > deep-extend                        
+                                                                                
+  More info       https://nodesecurity.io/advisories/612                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         deep-extend                                                   
+                                                                                
+  Dependency of   tslint [dev]                                                  
+                                                                                
+  Path            tslint > update-notifier > latest-version > package-json >    
+                  registry-url > rc > deep-extend                               
+                                                                                
+  More info       https://nodesecurity.io/advisories/612                        
+                                                                                
+
+
+                                                                                
+                                 Manual Review                                  
+             Some vulnerabilities require your attention to resolve             
+                                                                                
+          Visit https://go.npm.me/audit-guide for additional guidance           
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > azure-storage > request > hawk > boom >    
+                  hoek                                                          
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > azure-storage > request > hawk >           
+                  cryptiles > boom > hoek                                       
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > azure-storage > request > hawk > hoek      
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > azure-storage > request > hawk > sntp >    
+                  hoek                                                          
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > azure-storage >    
+                  request > hawk > boom > hoek                                  
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > azure-storage >    
+                  request > hawk > cryptiles > boom > hoek                      
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > azure-storage >    
+                  request > hawk > hoek                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > azure-storage >    
+                  request > hawk > sntp > hoek                                  
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Patched in      >=4.17.5                                                      
+                                                                                
+  Dependency of   azure-iot-device                                              
+                                                                                
+  Path            azure-iot-device > machina > lodash                           
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Patched in      >=4.17.5                                                      
+                                                                                
+  Dependency of   azure-iot-device-mqtt                                         
+                                                                                
+  Path            azure-iot-device-mqtt > azure-iot-device > machina > lodash   
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Patched in      >=4.17.5                                                      
+                                                                                
+  Dependency of   azure-iothub                                                  
+                                                                                
+  Path            azure-iothub > azure-iot-amqp-base > machina > lodash         
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Patched in      >=4.17.5                                                      
+                                                                                
+  Dependency of   azure-iothub                                                  
+                                                                                
+  Path            azure-iothub > machina > lodash                               
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+[!] 90 vulnerabilities found - Packages audited: 2510 (1157 dev, 78 optional)
+    Severity: 22 Low | 53 Moderate | 14 High | 1 Critical
+
